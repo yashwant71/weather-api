@@ -1,4 +1,8 @@
- {
+https://weather-temp-api.herokuapp.com/getWeather 
+post request ->
+
+JSON ,body request example->
+{
   "cities": [
     "toronto",
     "mumbai",
@@ -6,6 +10,7 @@
   ]
 }
 
+JSON response example->
 {
     "weather": {
         "toronto": "23C",
